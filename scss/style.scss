@@ -72,6 +72,7 @@ header{
             top: 5px;
             &:hover{
                 color: blue;
+                transition: 0.5s;
             }
         }
     }
@@ -294,6 +295,10 @@ footer{
         margin: 10px;
         img{
             height: 450px;
+            transition: 1s;
+            &:hover{
+                transform: skewY(4deg);
+            }
         }
         .product-name{
             font-family: Inconsolata;
@@ -311,6 +316,7 @@ footer{
         &:hover{
             .product-name{
                 color: blue;
+                transition: .3s;
             }
         }
     }

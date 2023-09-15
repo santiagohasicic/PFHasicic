@@ -60,6 +60,7 @@ header .nav-item a {
 }
 header .nav-item a:hover {
   color: blue;
+  transition: 0.5s;
 }
 header .nav-list-redes {
   list-style: none;
@@ -272,6 +273,10 @@ footer {
 }
 .product-container .product-item img {
   height: 450px;
+  transition: 1s;
+}
+.product-container .product-item img:hover {
+  transform: skewY(4deg);
 }
 .product-container .product-item .product-name {
   font-family: Inconsolata;
@@ -288,6 +293,7 @@ footer {
 }
 .product-container .product-item:hover .product-name {
   color: blue;
+  transition: 0.3s;
 }
 
 @media (max-width: 1024px) {
