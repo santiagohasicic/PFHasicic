@@ -243,6 +243,7 @@ footer{
                 width: 100%;
                 height: auto;
                 opacity: 75%;
+                transition: .3s;
             }
         }
     }
@@ -278,6 +279,7 @@ footer{
                 border-radius: 5px;
                 &:hover{
                     opacity: 90%;
+                    transition: .3s;
                 }
             }
         }
@@ -321,5 +323,46 @@ footer{
         }
     }
 }
+
+/*Videos*/
+
+.video-title{
+    position: relative;
+    width: 100%;
+    font-family: Inconsolata;
+    font-style: bold;
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+}
+
+.video-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    .video-item{
+        width: 800px;
+        padding: 20px;
+        .videoclip-title{
+            font-family: Inconsolata;
+            text-align: center;
+            color: blue;
+        }
+        iframe{
+            width: 100%;
+            padding: 5px;
+        }
+        .videoclip-info{
+            position: relative;
+            font-size: 18px;
+            padding: 10px;
+            font-family: Inconsolata;
+            text-align: left;
+        }
+    }
+    
+}
+
 
 @import "./_queries.scss"
