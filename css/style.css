@@ -317,7 +317,8 @@ footer {
 }
 .video-container .video-item {
   width: 800px;
-  padding: 20px;
+  padding: 15px;
+  margin: 15px;
 }
 .video-container .video-item .videoclip-title {
   font-family: Inconsolata;
