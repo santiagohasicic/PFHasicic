@@ -178,10 +178,9 @@ footer {
   position: relative;
   width: 100%;
   font-family: Inconsolata;
-  font-style: bold;
   text-align: center;
   padding-top: 20px;
-  color: rgb(251, 251, 253);
+  color: white;
 }
 
 .album-container {
@@ -231,9 +230,12 @@ footer {
   text-align: center;
   width: 100%;
   font-family: Inconsolata;
-  font-style: bold;
-  padding-top: 20px;
+  padding: 10px;
   color: black;
+}
+.gal-title:hover {
+  color: blue;
+  transition: 0.3s;
 }
 
 .img-container {
@@ -264,6 +266,17 @@ footer {
 }
 
 /* Tienda */
+.shop-title {
+  text-align: center;
+  width: 100%;
+  font-family: Inconsolata;
+  color: black;
+  padding-top: 50px;
+}
+.shop-title:hover {
+  color: blue;
+  transition: 0.3s;
+}
 .product-container {
   display: flex;
   flex-direction: row;
@@ -303,7 +316,6 @@ footer {
   position: relative;
   width: 100%;
   font-family: Inconsolata;
-  font-style: bold;
   text-align: center;
   padding-top: 20px;
   color: black;
@@ -316,6 +328,8 @@ footer {
   justify-content: center;
 }
 .video-container .video-item {
+  border: black 1px solid;
+  box-shadow: 10px 5px 5px gray;
   width: 800px;
   padding: 15px;
   margin: 15px;
