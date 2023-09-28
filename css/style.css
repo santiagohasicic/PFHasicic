@@ -7,6 +7,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 /*Navegacion*/
@@ -179,7 +180,7 @@ footer {
   width: 100%;
   font-family: Inconsolata;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 10px;
   color: white;
 }
 
@@ -225,12 +226,31 @@ footer {
   transition: 0.3s;
 }
 
+/*Boton subir*/
+.boton-btt{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.back-to-top{
+  transition: 0.2s ease-out;
+}
+.back-to-top span{
+  color: white;
+  font-size: 4rem;
+  transition: 0.2 ease-out;
+}
+
+.back-to-top:hover{
+  transform: translateY(-4px);
+}
+
 /*Galeria*/
 .gal-title {
   text-align: center;
   width: 100%;
   font-family: Inconsolata;
-  padding: 10px;
+  padding: 20px;
   color: black;
 }
 .gal-title:hover {
@@ -271,7 +291,7 @@ footer {
   width: 100%;
   font-family: Inconsolata;
   color: black;
-  padding-top: 50px;
+  padding: 20px;
 }
 .shop-title:hover {
   color: blue;
@@ -312,13 +332,15 @@ footer {
 }
 
 /*Videos*/
-.video-title {
-  position: relative;
-  width: 100%;
+.video-title{
   font-family: Inconsolata;
   text-align: center;
   padding-top: 20px;
   color: black;
+}
+.video-title:hover {
+  color: blue;
+  transition: 0.3s;
 }
 
 .video-container {
